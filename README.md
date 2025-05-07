@@ -15,10 +15,8 @@ This git contains the associated code of the our SAC submission.
 ## Example
 
     python full_attack.py 100 64 12 --accuracy 0.98
-In the example that means     
+In the example: 
 * m=12 means that computations take place in F_{2^{12}}
-* t=64 means that the LFSR considered are of length 2t=128 (or that
-the weight matrix has 128 lines)
+* t=64 means that the weight matrix has 128 lines
 * nb_test=100 means that we try to reconstruct 100 pairs \alpha,\beta
-* accuracy=0.98 means that the weight of each \alpha^i\beta (or each
-entry of the weight matrix) is altered as +-1 with probability 2%
+* accuracy=0.98 means that the weight of each \alpha^i\beta (or each entry of the weight matrix) is altered as +-1 with probability 2%
